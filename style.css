@@ -19,3 +19,10 @@ html {
     border: none;
     }
  
+    /* image styles */
+    
+    .bg-image {
+        background-image: url('/images/sleep-co-1.jpg');
+        background-size: cover;
+        min-height: 10rem;
+    }

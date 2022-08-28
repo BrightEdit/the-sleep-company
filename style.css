@@ -26,3 +26,8 @@ html {
         background-size: cover;
         min-height: 10rem;
     }
+
+    /* Universal Styles and Utility classes */
+
+    .padded     { padding: 5%; }
+    .padded-sm  { padding: 1rem }

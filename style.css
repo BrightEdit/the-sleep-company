@@ -22,11 +22,7 @@ Navy: #192B37
     border: 1px solid rgb(225 225 225);
     }  */
      
-body {
-    border: none;
-    font-family: 'Catamaran', sans-serif;
-    color: #192B37;
-}
+
 
 html {
     border: none;
@@ -42,8 +38,16 @@ html {
 
     /* Universal Styles and Utility classes */
 
+
+    body {
+        border: none;
+        font-family: 'Catamaran', sans-serif;
+        color: #192B37;
+    }
     .padded         { padding: 5%; }
-    .padded-sm      { padding: 1rem }
+    .padded-sm      { padding: 1rem; }
+    .padd ed-lg       { padding: 10%;}
+
 
     .bg-dark        {background-color: #192B37;
                      color: white; }
@@ -63,7 +67,7 @@ html {
     
 
 
-    /* Header Styles */
+    /* Header Styles  and footer */
     
 header {
     background-image: url(/images/sleep-co-4.jpg);
@@ -76,11 +80,19 @@ header h3 {
     line-height: 1;
 }
 
+footer a {
+    border: none;
+}
+
 /* Typography Styles  */
 
 h2  { font-size: 2.5rem;
         line-height: 1.1;
         margin-bottom: 1rem;
+}
+
+h3{
+    line-height: 1;
 }
 
 p   { font-weight: 200;
@@ -92,11 +104,48 @@ p:last-child {
    margin-bottom: 0%;
   }
 
-.featured-text   { color: #ffbe00  }
+a   {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+ a:hover {
+        color: #ffbe00;
+    } 
+ 
 
-    .font-weight-light          { font-weight: 200;}
-    .font-weight-normal         { font-weight: 400;}
-    .font-weight-extra-bold     { font-weight: 800;}
+
+.featured-text   { color: #ffbe00;  }
+.featured-text-white { color: white;}
+
+
+.small-text { font-size: 1.5rem; }
+.medium-text { 
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.big-text { font-size: 4.5rem; }
+
+
+.subtitle { font-size: 1.2rem; 
+    color: rgb(120, 120, 125);}
+            
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120, 120, 125);
+    line-height: 1;
+}
+
+
+
+.font-weight-light          { font-weight: 200;}
+.font-weight-normal         { font-weight: 400;}
+.font-weight-extra-bold     { font-weight: 800;}
+
+
 
 /* background images */
 
@@ -108,5 +157,17 @@ p:last-child {
           
 }
 
-.bg-yellow {background-image: url(/images/sleep-co-2.jpg);}
+.bg-yellow {background-image: url(/images/sleep-co-2.jpg);
+            background-position: 50% 50%;
+}
 .bg-lamp {background-image: url(/images/sleep-co-3.jpg);}
+
+
+/*  icon grid */
+
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}

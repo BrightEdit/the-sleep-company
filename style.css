@@ -17,10 +17,10 @@ Navy: #192B37
 
 /*----------------- temporary styles for structural html-------------- */
 
-section  {
+/* section  {
     padding: 0.5rem;
     border: 1px solid rgb(225 225 225);
-    } 
+    }  */
      
 body {
     border: none;
@@ -48,10 +48,14 @@ html {
     .bg-dark        {background-color: #192B37;
                      color: white; }
 
+
     .text-left      { text-align: left;}
     .text-center    { text-align: center;}
     .text-right     { text-align: right;}
 
+    .tall-50        { min-height: 50vh;}
+    .tall-60        { min-height: 60vh;}
+    .tall-70        { min-height: 70vh;}
     .tall-80        { min-height: 80vh;}
     .tall-90        { min-height: 90vh;}
     .tall-100        { min-height: 100vh;}
@@ -94,3 +98,15 @@ p:last-child {
     .font-weight-normal         { font-weight: 400;}
     .font-weight-extra-bold     { font-weight: 800;}
 
+/* background images */
+
+.bg-bed { background-image: url(/images/sleep-co-4.jpg);}
+
+.bg-pug { 
+        background-image: url(/images/sleep-co-1.jpg);
+        background-position:center;
+          
+}
+
+.bg-yellow {background-image: url(/images/sleep-co-2.jpg);}
+.bg-lamp {background-image: url(/images/sleep-co-3.jpg);}

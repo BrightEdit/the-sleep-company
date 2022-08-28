@@ -81,7 +81,12 @@ h2  { font-size: 2.5rem;
 
 p   { font-weight: 200;
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
+
+p:last-child {
+   margin-bottom: 0%;
+  }
 
 .featured-text   { color: #ffbe00  }
 
